@@ -1,6 +1,6 @@
 # many beans
 beans = 16
-def decision1(a):
+def decision1(a): #this function makes 100% win turns for the first player
     if beans == 16:
         return 3
     elif beans ==  12 or beans == 11 or beans == 10:
@@ -13,7 +13,7 @@ def decision1(a):
         return 2
     elif beans == 2:
         return 1
-def decision2(a):
+def decision2(a): #optimal turns if computer starts second
     if beans == 15:
         return 2
     elif beans == 14:
